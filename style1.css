@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+   
+}
+body{
+    background-image: url(news-7.jpg);
+    background-size: cover;  
+}
+h1{
+    color: #033755;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;  
+}
+.form-box{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    background: rgba(11, 22, 30, 0.669);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: filter;
+
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+      position: absolute;
+      top: 50%;
+      left: 5px;
+      transform: translateY(-50%); 
+      color: #fff;
+      font-size: 1rem;
+      pointer-events: none;
+      transition: .5s;
+
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.inputbox input{
+    width: 90%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    top: 20px;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #177db9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size:1em;
+    font-weight: 600;
+}

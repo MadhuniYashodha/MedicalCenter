@@ -1,0 +1,21 @@
+.oval-button{
+        border-radius: 50px;
+        border-color:rgb(194, 194, 194); ;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        color: #9c9a9a;
+        font-weight: bold;
+        background-color: rgb(194, 194, 194);
+      }
+
+body{
+    background-image:url("./Background.png");
+    background-size: cover;
+}
+.container{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
